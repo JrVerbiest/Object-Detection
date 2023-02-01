@@ -1,0 +1,15 @@
+name: rtobjectdect_venv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.2
+  - pip=22.2.2
+  - pandas=1.3
+  - opencv=4.5.0
+  - matplotlib=3.5
+  - jupyterlab=3.4.8
+  - pyyaml=6.0
+  - pip:
+    - pyrealsense2==2.51.1.4348
+    - pynput==1.7.3
