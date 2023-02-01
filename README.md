@@ -7,6 +7,11 @@
 conda env create -f conda.yml
 ```
 
+**actvate environment**
+```
+conda activate rtobjectdect_venv
+```
+
 **update environment**
 ```
 conda env update --name rtobjectdect_venv --file conda.yml --prune
