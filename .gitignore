@@ -1,1 +1,3 @@
 *.avi
+src/.ipynb_checkpoints/
+src/image_capture/.ipynb_checkpoints/
