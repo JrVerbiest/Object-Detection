@@ -1,10 +1,16 @@
-# Real-time object detection using embedded machine learning.
+# Object detection 
 
-# Computer
+Development tools
+- Linux computer.
+- [Edge Impulse Studio](https://www.edgeimpulse.com/)
 
-The code development is mainly done on a Linux computer.
+Hardware
+- NVIDIA® Jetson Nano™ Developer Kit (4GB)
+- Intel® RealSense™ Depth Camera D435i
 
-## Conda environment
+---
+
+## ° Conda environment
 
 **create environment**
 ```
@@ -26,15 +32,8 @@ conda env update --name rtobjectdect_venv --file conda.yml --prune
 
 ## ° NVIDIA® Jetson Nano™ Developer Kit 
 
-[NVIDIA JetPack 4.6.1.](https://developer.nvidia.com/embedded/jetpack-sdk-461), see also [Getting Started with Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
-
-## ° Nomachine
-
-Install [NoMachine](https://www.nomachine.com/) for remote destop 
-
-## ° Visual Code
-
-Install [Visual Code](https://code.visualstudio.com/). To install Visual Code on Jetson Nano follow the instruction on: [JetsonHacks - Visual Studio Code](https://jetsonhacks.com/2020/11/28/visual-studio-code/)
+[NVIDIA JetPack 4.6.1.](https://developer.nvidia.com/embedded/jetpack-sdk-461)<br>
+see also [Getting Started with Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 ## ° Realsense on Jetson Nano
 
@@ -63,3 +62,13 @@ If you get following error: *Failed to load module "canberra-gtk-module"*, insta
 ```
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
 ```
+
+---
+## Optional
+### ° Nomachine
+
+Install [NoMachine](https://www.nomachine.com/) for remote destop. 
+
+### ° Visual Code
+
+Install [Visual Code](https://code.visualstudio.com/). To install Visual Code on Jetson Nano follow the instruction on: [JetsonHacks - Visual Studio Code](https://jetsonhacks.com/2020/11/28/visual-studio-code/)
