@@ -1,5 +1,9 @@
 # Real-time object detection using embedded machine learning.
 
+# Computer
+
+The code development is mainly done on a Linux computer.
+
 ## Conda environment
 
 **create environment**
@@ -18,7 +22,21 @@ conda env update --name rtobjectdect_venv --file conda.yml --prune
 ```
 ---
 
-## Realsense on Jetson Nano
+# Single Board Computer - NVIDIA Jetson Nano
+
+## ° NVIDIA® Jetson Nano™ Developer Kit 
+
+[NVIDIA JetPack 4.6.1.](https://developer.nvidia.com/embedded/jetpack-sdk-461), see also [Getting Started with Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+
+## ° Nomachine
+
+Install [NoMachine](https://www.nomachine.com/) for remote destop 
+
+## ° Visual Code
+
+Install [Visual Code](https://code.visualstudio.com/). To install Visual Code on Jetson Nano follow the instruction on: [JetsonHacks - Visual Studio Code](https://jetsonhacks.com/2020/11/28/visual-studio-code/)
+
+## ° Realsense on Jetson Nano
 
 To install RealSense viewer, see the instruction on: [Install RealSense Camera in 5 minutes – Jetson Nano](https://jetsonhacks.com/2019/12/22/install-realsense-camera-in-5-minutes-jetson-nano/)
 
@@ -37,7 +55,6 @@ export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/pyrealsense2
 ```
 
 and 'source ~/.bashrc'
-
 
 **Errors**
 
