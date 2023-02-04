@@ -1,0 +1,16 @@
+{
+    "camera":[
+        {
+            "fps": 15,
+            "max_resolution": [1280,720]
+        },
+        {
+            "fps": 30,
+            "max_resolution": [640,480]
+        },
+        {
+            "fps": 60,
+            "max_resolution": [424,240]
+        }
+    ]
+}
