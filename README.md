@@ -78,3 +78,4 @@ Install [Visual Code](https://code.visualstudio.com/). To install Visual Code on
 
 - [Edge Impulse - Build an Object Detection Model Using Transfer Learning [Part 1]](https://www.youtube.com/watch?v=Vwv0PJPeC4s&list=PL7VEa1KauMQqAbcN_RxSON4P7fPpNTJxl&index=4)
 - [Edge - Impulse - Running Object Detection with Linux Python SDK [Part 2]](https://www.youtube.com/watch?v=rUzXcICfDR0&list=PL7VEa1KauMQqAbcN_RxSON4P7fPpNTJxl&index=3)
+- [Beginners guide to Object Detection with Edge Impulse](https://peter-ing.medium.com/beginners-guide-to-object-detection-with-edge-impulse-c8ea95f844a0)
